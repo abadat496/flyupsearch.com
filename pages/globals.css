@@ -1613,7 +1613,7 @@ td:first-child {
 .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
   font: inherit;
   letter-spacing: inherit;
-  color: #fff;
+  color: #fff!important;
   /* padding: 4px 0 5px; */
   border: 0 !important;
   box-sizing: content-box;
