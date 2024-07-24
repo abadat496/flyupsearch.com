@@ -369,7 +369,7 @@ span {
   font-weight: 300;
 }
 
-.form-control::placeholder {color: #fff; font-weight: 300;}
+.form-control::placeholder {color: #fff!important; font-weight: 300!important;}
 
 .searh-engain .nav-tabs {
   border-bottom: 1px solid #434a54;
