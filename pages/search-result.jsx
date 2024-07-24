@@ -63,7 +63,7 @@ const Search = () => {
           <SearchIcon />
         </Fab>
       ) : (
-        <SearchForm  backGroundImage={"/domestic-img.jpg"} />
+        <SearchForm backGroundImage={"/slider.jpg"} />
       )}
       <Drawer
         anchor="bottom"
@@ -79,14 +79,13 @@ const Search = () => {
             backgroundColor: "#ccc",
           }}
         >
-         <SearchForm onlyForm={true} />
+          <SearchForm onlyForm={true} />
         </div>
       </Drawer>
       {searches && searches?.data?.length ? (
         <div className="container">
           <FlightBox searches={searches} />
           {/* <Undercuttingbanner /> */}
-          
         </div>
       ) : (
         <NoResult />

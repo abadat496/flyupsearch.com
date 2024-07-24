@@ -133,9 +133,10 @@ const SearchForm = ({
             {!onlyForm && <div className="marg-top">
               <h1>
                 {title ||
-                  "Travel beyond your boundaries!"}
+                  "Book now, go wow!"}
               </h1>
              
+             <h5>From quaint villages to vibrant cities, explore the way you want.  </h5>
              
             </div>}
             </div>
@@ -178,11 +179,11 @@ const SearchForm = ({
                   </label>
                 </div>
                 <div className="row">
-                  <div className="col-12 col-sm-6 col-lg-6 col-xl-6 p-1">
+                  <div className="col-12 col-sm-6 col-lg-2 col-xl-2 p-1">
                     <label>From Airport</label>
                     <div className="input-group">
                       <div className="icon3">
-                        <img className="" id="" alt="" src={`/location.png`} />
+                      <i class="fa-solid fa-plane-departure"></i>
                       </div>
                       <AutoCompleteInput
                         name="origin"
@@ -192,11 +193,11 @@ const SearchForm = ({
                       />
                     </div>
                   </div>
-                  <div className="col-12 col-sm-6 col-lg-6 col-xl-6 p-1">
+                  <div className="col-12 col-sm-6 col-lg-2 col-xl-2 p-1">
                     <label>To Airport</label>
                     <div className="input-group">
                       <div className="icon3">
-                        <img className="" id="" alt="" src={`/plane_down.png`} />
+                      <i class="fa-solid fa-plane-arrival"></i>
                       </div>
                       <AutoCompleteInput
                         name="destination"
@@ -206,11 +207,11 @@ const SearchForm = ({
                       />
                     </div>
                   </div>
-                  <div className="col-12 col-sm-6 col-lg-3 col-xl-3 p-1">
+                  <div className="col-6 col-sm-6 col-lg-2 col-xl-2 p-1">
                     <label>Departure Date</label>
                     <div className="input-group">
                       <div className="icon3">
-                        <img className="" id="" alt="" src={`/dateoick.png`} />
+                      <i class="fa-solid fa-calendar-check"></i>
                       </div>
                       <LocalizationProvider dateAdapter={AdapterDayjs}>
                         <DatePicker
@@ -223,11 +224,11 @@ const SearchForm = ({
                     </div>
                   </div>
                   {formData.tripType === "roundTrip" && (
-                  <div className="col-12 col-sm-6 col-lg-3 col-xl-3 p-1">
+                  <div className="col-6 col-sm-6 col-lg-2 col-xl-2 p-1">
                     <label>Return Date</label>
                     <div className="input-group">
                       <div className="icon3">
-                        <img className="" id="" alt="" src={`/dateoick.png`} />
+                      <i class="fa-solid fa-calendar-check"></i>
                       </div>
                       <LocalizationProvider dateAdapter={AdapterDayjs}>
                         <DatePicker
@@ -240,11 +241,11 @@ const SearchForm = ({
                     </div>
                   </div>
                 )}
-                  <div className="col-12 col-sm-6 col-lg-3 col-xl-3 p-1">
+                  <div className="col-12 col-sm-6 col-lg-2 col-xl-2 p-1">
                     <label>Add Travelers</label>
                     <div className="dropdown">
                       <div className="icon3">
-                        <img className="" id="" alt="" src={`/passenger_iim.png`} />
+                      <i class="fa-solid fa-users"></i>
                       </div>
                       <ClassSelection
                         onSelectClass={(key, val) => handleSelect(val, key)}
@@ -254,20 +255,13 @@ const SearchForm = ({
                       />
                     </div>
                   </div>
-                  <div className="col-12 col-sm-6 col-lg-3 col-xl-3 d-grid gap-2 p-1">
+                  <div className="col-12 col-sm-6 col-lg-2 col-xl-2 d-grid gap-2 p-1">
                     <button
                       className="btn btn-primary"
                       type="button"
                       onClick={handleSubmit}
                     >
-                      Search Flights <LazyImage
-                src="/find.png"
-                className="img-fluid"
-                alt=""
-                imageSizes={32}
-                width={30}
-                height={30}
-              /> 
+                      Search Flights  
                     </button>
                   </div>
                 </div>

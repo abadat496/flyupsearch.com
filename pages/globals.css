@@ -1,12 +1,12 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 h1,
@@ -15,13 +15,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #666;
   font-weight: 700;
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #060606;
   font-size: 16px;
   line-height: 1.9;
@@ -41,7 +41,7 @@ li {
 }
 
 li {
-  font-family: "Montserrat", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 1.9;
   font-weight: 400;
@@ -90,8 +90,8 @@ button:focus:not(:focus-visible) {
 }
 
 .form-check-input:checked {
-  background-color: #002055;
-  border-color: #002055;
+  background-color: #024aae;
+  border-color: #024aae;
   outline: none;
 }
 
@@ -197,23 +197,23 @@ span {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 14px;
   color: #444444 !important;
    transition: 1s;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #002055 !important;
+  color: #024aae !important;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: #002055 !important;
+  color: #024aae !important;
 }
 
 .dropdown-menu>li a:hover,
 .dropdown-menu>li.show {
-  background: #002055;
+  background: #024aae;
 }
 
 .dropdown-menu .dropdown .dropdown-menu::-webkit-scrollbar {
@@ -250,7 +250,7 @@ span {
 }
 
 .dropdown-menu .dropdown-item {
-  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #444444;
   font-size: 13px;
    border-bottom: #dddddd solid 1px;
@@ -300,7 +300,7 @@ span {
 
 .phone-number h5 a {
   font-size: 19px;
-  color: #002055;
+  color: #024aae;
 }
 
 .phone-number ul li .fa {
@@ -333,7 +333,7 @@ span {
   color: #ffffff;
   font-size: 24px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
   text-shadow: #181818 0px 0px 3px;
 }
 
@@ -347,27 +347,29 @@ span {
   padding-bottom: 100px;
   position: relative;
   z-index: 1000;
-  top: 0px;
+  bottom:-143px;
 }
 
 .icon3 {
   position: absolute;
   z-index: 1000;
   top: 10px;
-  left: 3px;
+  left: 6px;
 }
 
 .searh-engain .form-control {
-  border: #002055 solid 1px;
-  border-bottom: #002055 solid 2px;
-  padding: 10px 30px;
+  border: #fff solid 1px;
+   padding: 10px 30px;
   font-weight: 600;
-  color: #333;
+  color: #fff;
   background: rgb(255 255 255 / 0%);
   outline: none;
   padding-left: 30px;
   border-radius: 0px!important;
+  font-weight: 300;
 }
+
+.form-control::placeholder {color: #fff; font-weight: 300;}
 
 .searh-engain .nav-tabs {
   border-bottom: 1px solid #434a54;
@@ -395,16 +397,17 @@ span {
   padding-left: 25px;
   padding-right: 25px;
 }
+.icon3 i {color: #f6edc1}
 
 .searh-engain .tab-content {
-  background: rgb(255 255 255 / 79%);
+  background: rgb(14 14 14 / 53%);
   color: #000;
   padding:20px 30px;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .searh-engain .form-control:focus {
-  border: #010101 solid 1px;
+  border: #eac408 solid 1px;
   outline: none;
   box-shadow: none;
 }
@@ -479,8 +482,8 @@ span {
   font-size: 18px;
   font-weight: 600;
   border-radius: 3px;
-  background: #002055;
-  color: #fff;
+  background: #eac408;
+  color: #000;
   outline: none;
   float: left;
   height: 48px;
@@ -701,7 +704,7 @@ main {
 }
 
 .footer-bg {
-  background: #002055;
+  background: #024aae;
 }
 
 .footer-bg strong {
@@ -1610,7 +1613,7 @@ td:first-child {
 .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
   font: inherit;
   letter-spacing: inherit;
-  color: currentColor;
+  color: #fff;
   /* padding: 4px 0 5px; */
   border: 0 !important;
   box-sizing: content-box;
@@ -1627,6 +1630,7 @@ td:first-child {
   animation-duration: 10ms;
   padding: 11px 0 10px 30px;
   /* padding-right: 0; */
+  font-weight: 300;
 }
 
 
@@ -1919,8 +1923,7 @@ td:first-child {
 
 /*validation*/
 .input-group> :not(:first-child) {
-  border-bottom: #002055 solid 2px!important;
-  border: #002055 solid 0.5px;
+   border: #FFF solid 0.5px;
   width: 100%;
   border-radius:0px!important;
 }
@@ -2137,6 +2140,11 @@ td:first-child {
   text-shadow: -3px 0px 1px rgba(55, 55, 55, 0.64);
   margin-bottom: 15px;
 }
+.searh-engain h5 {
+  color: #ffed92;
+  font-size: 22px;
+  text-align: left;
+ }
 
 .searh-engain p {
   color: #fff;
@@ -2168,7 +2176,7 @@ td:first-child {
 
 .searh-engain label {
   font-size: 12px;
-  color: #002055;
+  color: #FFF;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -2364,7 +2372,7 @@ td:first-child {
 }
 
 .footer-bottom {
-  background: #002055;
+  background: #024aae;
 }
 
 .footer-bottom p {
@@ -2396,9 +2404,7 @@ td:first-child {
   color: #fff;
 }
 
-.icon3 img {
-  width: 21px;
-}
+ 
 
 .footer_tp {
   background: #f7f7f7;
@@ -2566,7 +2572,7 @@ td:first-child {
   width: 100%;
   margin: 0;
   overflow: hidden;
-  background: #2f7dff;
+  background: #0388eb;
 }
 .email {
   float: left;
@@ -2593,6 +2599,62 @@ td:first-child {
  
 
 .hotel h2 span strong {font-weight:bold;}
+
+
+
+.SpecialOffers{overflow: hidden; padding: 120px 0; position: relative;}
+.SpecialOffers .specialCard {
+    height:200px; position: relative; width: 100%; z-index: 0;}
+
+.SpecialOffers .specialCard__image {
+        height:100%; left:0; position: absolute; top:0; width:100%; z-index:-1;}
+.SpecialOffers .specialCard__image img {
+            border-radius: 12px; height: 100%; -o-object-fit: cover; object-fit: cover; width: 100%;   }
+.SpecialOffers .specialCard__content {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                justify-content: center;
+                padding: 30px;
+            }
+ 
+
+.discount-banner{overflow: hidden; padding: 120px 0; position: relative;}
+.discount-banner .price {font-size: calc(13.6px + 1.375vw);}   
+    .discount-banner .price del {
+        color: hsla(0, 0%, 100%, .9);
+        font-size: calc(14.2px + .5625vw);
+        font-weight: 400; }
+   
+    .discount-banner .bottom-section {
+        align-items: center;
+        display: flex;
+        margin-top: 35px;   }
+    .discount-banner .bottom-section .btn-danger{ 
+        box-shadow: 1px 11px 20px 0 rgb(239 63 62 / 12%);  border-radius: 100px;
+        padding: 8px 24px !important; border: 1px solid #eb3838; }
+ 
+    .discount-banner .bottom-section .info-btn {
+        margin-left: 25px; }
+    .discount-banner h2 {
+        color: #fff;
+        font-size: calc(12px + 2.5vw);
+        font-weight: 700;
+        margin-bottom:0px;
+        text-transform: capitalize; }
+  
+    .discount-banner .info-btn h6 {
+        background-color: hsla(0, 0%, 100%, .05);
+        border-radius: 50px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 0;
+        padding: 10px 16px;
+        text-transform: uppercase;}
+   
+   
+   
 
 /* Responsive Css */
 
@@ -2764,7 +2826,7 @@ td:first-child {
   .searh-engain {
     padding-top: 10px!important;
     padding-bottom: 0px!important;
-    top: auto;
+    bottom:-17px;
     
   }
   .searh-engain .tab-content {border-radius: 0px;}

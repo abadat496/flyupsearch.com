@@ -50,9 +50,9 @@ const Footer = ({ langData }) => {
                  
                 
                 <li>
-                  <Link href="mailto:info@unityfare.com">
+                  <Link href="mailto:info@flyupsearch.com">
                     {" "}
-                    <i class="fa-regular fa-envelope"></i>  info@unityfare.com
+                    <i class="fa-regular fa-envelope"></i>  info@flyupsearch.com
                   </Link>
                 </li>
                 <li>
@@ -146,7 +146,7 @@ const Footer = ({ langData }) => {
         <div className="container-lg footer-border">
           <div className="row">
             <div className="col-12 col-lg-8">
-              <p>Copyright &copy; 2024 unityfare.com. All Rights Reserved. ( Parent Company : Faresoracle Enterprises )</p>
+              <p>Copyright &copy; 2024 flyupsearch.com. All Rights Reserved. ( Parent Company : Faresoracle Enterprises )</p>
             </div>
 
             

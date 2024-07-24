@@ -45,7 +45,7 @@ const Header = ({ langData }) => {
       <div className="container">
         
         <div className="phone"><Link href={`tel:${langData?.phoneNumber}`}><i class="fa-solid fa-phone-volume"></i>  {phoneNumber}</Link></div>
-        <div className="email"><i class="fa-solid fa-at"></i> info@unityfare.com</div>
+        <div className="email"><i class="fa-solid fa-at"></i> info@flyupsearch.com</div>
       </div>
     </div>
 
