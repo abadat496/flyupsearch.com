@@ -361,7 +361,7 @@ span {
   border: #fff solid 1px;
    padding: 10px 30px;
   font-weight: 600;
-  color: #fff;
+  color: #fff!important;
   background: rgb(255 255 255 / 0%);
   outline: none;
   padding-left: 30px;
