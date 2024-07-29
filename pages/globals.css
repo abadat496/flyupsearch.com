@@ -2190,7 +2190,7 @@ td:first-child {
 }
 
 .hotelbg p {margin: 0px; font-size: 13px;}
-
+.hotelbg i {color: rgb(232, 126, 4); font-size: 12px;}
 .htlwhy img {
   width: 30% !important;
 }

@@ -18,7 +18,7 @@ const Home = () => {
             <div className="">
               <h2>
                 DISCOVER THE <span>WORLD</span>
-                <br></br> WITH OUR GUIDE - FLYUP SEARCH
+                <br></br> WITH OUR GUIDE - FLYUPSEARCH.COM
               </h2>
               <section>
                 <p>
@@ -49,77 +49,12 @@ const Home = () => {
                 </p>
               </section>
             </div>
-
-            <div className="row">
-              <div className="col-md-6 mb-4">
-                <div className="features-item">
-                  <div className="features-icon">
-                    <LazyImage
-                      src="/airplane-ticket.png"
-                      alt="..."
-                      height={60}
-                      width={60}
-                    />
-                  </div>
-                  <div className="features-content">
-                    <h6 className="title">Air Tickets</h6>
-                    <p>Enjoy hassle-free experience</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6 mb-4">
-                <div className="features-item">
-                  <div className="features-icon">
-                    <LazyImage src="/cruise.png" height={60} width={60} />
-                  </div>
-                  <div className="features-content">
-                    <h6 className="title">Voyages & Cruises</h6>
-                    <p>Sail with premium luxury</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6 mb-4">
-                <div className="features-item">
-                  <div className="features-icon">
-                    <LazyImage
-                      src="/building.png"
-                      height={60}
-                      width={60}
-                      alt="..."
-                    />
-                  </div>
-                  <div className="features-content">
-                    <h6 className="title"> Hotel Bookings</h6>
-                    <p>Accommodate at prime locations </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6 mb-4">
-                <div className="features-item">
-                  <div className="features-icon">
-                    <LazyImage
-                      src="/tourism.png"
-                      height={60}
-                      width={60}
-                      alt="..."
-                    />
-                  </div>
-                  <div className="features-content">
-                    <h6 className="title"> Summer Tours</h6>
-                    <p>Unseal the best summer tours</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="col-12 col-sm-4 mb-2 p-2">
             <div className="hotel">
               <LazyImage
-                src={"/about-img.png"}
+                src={"/about-us.png"}
                 className="card-LazyImage"
                 layout="responsive"
               />
@@ -149,6 +84,13 @@ const Home = () => {
                 <span className="hotelbg">
                   <h3>Budapest</h3>
                   <p>398 Packages</p>
+                  <p>
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i> (70694 Reviews)
+                  </p>
                 </span>
               </div>
             </div>
@@ -163,6 +105,13 @@ const Home = () => {
                 <span className="hotelbg">
                   <h3>Rome</h3>
                   <p>267 Packages</p>
+                  <p>
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i> (674 Reviews)
+                  </p>
                 </span>
               </div>
             </div>
@@ -177,6 +126,13 @@ const Home = () => {
                 <span className="hotelbg">
                   <h3>Venice</h3>
                   <p>346 Packages</p>
+                  <p>
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-regular fa-star"></i> (567 Reviews)
+                  </p>
                 </span>
               </div>
             </div>
@@ -191,6 +147,13 @@ const Home = () => {
                 <span className="hotelbg">
                   <h3>Europe</h3>
                   <p>578 Packages</p>
+                  <p>
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i> (8932 Reviews)
+                  </p>
                 </span>
               </div>
             </div>
@@ -205,6 +168,13 @@ const Home = () => {
                 <span className="hotelbg">
                   <h3>Alaska</h3>
                   <p>578 Packages</p>
+                  <p>
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-solid fa-star"></i>{" "}
+                    <i class="fa-regular fa-star"></i> (3461 Reviews)
+                  </p>
                 </span>
               </div>
             </div>
