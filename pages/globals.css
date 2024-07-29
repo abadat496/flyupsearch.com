@@ -72,6 +72,7 @@ button:focus:not(:focus-visible) {
 .form-control:focus {
   border: #6e6b6b solid 1px;
   box-shadow: none;
+  background: #000;
 }
 
 .navbar-light .navbar-toggler:hover {
@@ -362,7 +363,7 @@ span {
    padding: 10px 30px;
   font-weight: 600;
   color: #fff!important;
-  background: rgb(255 255 255 / 0%);
+  background: rgb(255 255 255 / 0%)!important;
   outline: none;
   padding-left: 30px;
   border-radius: 0px!important;

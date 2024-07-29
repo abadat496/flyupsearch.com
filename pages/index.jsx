@@ -20,29 +20,34 @@ const Home = () => {
                 DISCOVER THE <span>WORLD</span>
                 <br></br> WITH OUR GUIDE - FLYUP SEARCH
               </h2>
-              <p>
-                Unityfare is the epitome in the travel domain. Let’s take a deep
-                dive in the world of adventure and thrill. We are the platform
-                where every journey begins with a promise of discovery. We are
-                thrilled to invite you to come along and explore the world with
-                our Alluring services.{" "}
-              </p>
+              <section>
+                <p>
+                  <strong>Mission </strong>- Our mission is to rejuvenate travel
+                  booking experience. As life is getting busier, we all want to
+                  avoid the fuss of comparing the rate of the airlines. We are
+                  offering a seamless platform that empowers travellers to
+                  effortlessly discover the best deals and options. We believe
+                  that every dream must be fulfilled and we try that the dream
+                  will not be lost in planning the journey. We aim to offer
+                  tireless browsing over our platform and allow you to access
+                  the best insider deals and offers. Our website is intricately
+                  designed to cater our audience. We want people to dream for
+                  their travel destination and live the fullest of their lives.
+                </p>
+              </section>
 
-              <p>
-                <strong>Who We Are : </strong>
-                Our team is full of passionate travellers who will assist you,
-                plan on behalf of you. We are curators of your journey. We are a
-                dedicated and skilled travel company, dealing in a variety of
-                services.
-              </p>
-
-              <p>
-                <strong>What We Do : </strong>
-                Are you ready to start a journey with us? We are amalgamating
-                adventure with utmost facilities. We are dealing in several
-                verticals related to travel. We are continuously enhancing our
-                services and booking the best for you.
-              </p>
+              <section>
+                <p>
+                  <strong>Vision </strong>- Our vision is to lead the travel
+                  industry and make our platform one of the most prestigious
+                  travel booking organisations. We want to share the dream of
+                  every traveller by making the journey beautiful and full of
+                  comfort. We want you to paint the memories on the canvas of
+                  life. We clout on advanced technology to continually enhance
+                  our offerings. We are ensuring amazing curated travel
+                  experiences and surpass the customer expectations.
+                </p>
+              </section>
             </div>
 
             <div className="row">
